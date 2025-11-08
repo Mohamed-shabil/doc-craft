@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <header className="max-w-[1200px] mx-auto flex border-b border-solid border-gray-200/80 px-10 py-4">
             <div className="flex items-center">
-                <h1 className="text-2xl font-bold text-secondary-foreground">
-                    Temply
+                <h1 className="text-2xl  text-secondary-foreground">
+                    Automate
                 </h1>
             </div>
             <div className="flex-1 flex justify-end gap-8 items-center">
