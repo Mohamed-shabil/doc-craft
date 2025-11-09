@@ -8,7 +8,10 @@ const Features = () => {
             id="features"
         >
             <div className="text-center px-4 mb-12">
-                <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-2">
+                <span className="text-sm text-blue-500 shiny-text tracking-tighter">
+                    What we will do
+                </span>
+                <h2 className="text-3xl md:text-4xl font-medium tracking-tight my-2">
                     Powerful Features, Effortless Results
                 </h2>
                 <p className="max-w-2xl mx-auto text-base  text-gray-600">
