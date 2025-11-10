@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
     return (
-        <header className="w-full fixed top-5 ">
+        <header className="w-full fixed top-5 z-50">
             <div className="max-w-5xl flex mx-auto border rounded-full backdrop-blur-sm border-gray-200 px-10 py-4">
                 <div className="flex items-center">
                     <h1 className="text-2xl  text-secondary-foreground">

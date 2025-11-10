@@ -218,7 +218,7 @@
             to right,
             currentColor 0%,
             currentColor 45%,
-            rgba(255, 255, 255, 0.6) 50%,
+            rgb(255, 255, 255) 50%,
             currentColor 55%,
             currentColor 100%
         );
