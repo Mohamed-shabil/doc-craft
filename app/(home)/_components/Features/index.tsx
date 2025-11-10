@@ -9,12 +9,12 @@ const Features = () => {
         >
             <div className="text-center px-4 mb-12">
                 <span className="text-sm text-blue-500 shiny-text tracking-tighter">
-                    What we will do
+                    Features
                 </span>
                 <h2 className="text-3xl md:text-4xl font-medium tracking-tight my-2">
                     Powerful Features, Effortless Results
                 </h2>
-                <p className="max-w-2xl mx-auto text-base  text-gray-600">
+                <p className="max-w-2xl mx-auto text-sm  text-gray-600">
                     Everything you need to automate your document workflow and
                     boost <br />
                     productivity.

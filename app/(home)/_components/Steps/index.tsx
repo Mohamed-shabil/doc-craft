@@ -7,16 +7,16 @@ const Steps = () => {
                 <span className="text-sm text-blue-500 shiny-text tracking-tighter">
                     How it works
                 </span>
-                <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-2">
+                <h2 className="text-3xl md:text-4xl font-medium tracking-tight my-2">
                     Generate in 3 Simple Steps
                 </h2>
-                <p className="max-w-2xl mx-auto text-base  text-gray-600">
+                <p className="max-w-2xl mx-auto text-sm  text-gray-600">
                     Transform your documents with minimal effort. Here’s how
                     TemplAI works.
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 relative">
-                <div className="relative z-10 flex flex-col items-center text-center">
+                <div className="relative flex flex-col items-center text-center">
                     <div className="flex items-center justify-center size-12 rounded-full primary-gradient-bg text-white font-bold text-xl mb-4 border-4 border-gray-50 ">
                         1
                     </div>
@@ -26,7 +26,7 @@ const Steps = () => {
                         any common format.
                     </p>
                 </div>
-                <div className="relative z-10 flex flex-col items-center text-center">
+                <div className="relative flex flex-col items-center text-center">
                     <div className="flex items-center justify-center size-12 rounded-full primary-gradient-bg text-white font-bold text-xl mb-4 border-4 border-gray-50 ">
                         2
                     </div>
@@ -36,7 +36,7 @@ const Steps = () => {
                         sources with a few clicks.
                     </p>
                 </div>
-                <div className="relative z-10 flex flex-col items-center text-center">
+                <div className="relative flex flex-col items-center text-center">
                     <div className="flex items-center justify-center size-12 rounded-full primary-gradient-bg text-white font-bold text-xl mb-4 border-4 border-gray-50 ">
                         3
                     </div>

@@ -10,6 +10,9 @@ const FAQ = () => {
     return (
         <section className="py-16 md:py-24">
             <div className="text-center px-4 mb-12">
+                <span className="text-sm text-blue-500 shiny-text tracking-tighter">
+                    FAQs
+                </span>
                 <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-2">
                     Frequently Asked Questions
                 </h2>

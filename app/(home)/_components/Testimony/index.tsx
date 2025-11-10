@@ -4,10 +4,13 @@ const Testimony = () => {
     return (
         <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900/50 mx-auto max-w-5xl">
             <div className="text-center px-4 mb-12">
-                <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-2">
+                <span className="text-sm text-blue-500 shiny-text tracking-tighter">
+                    Testimony
+                </span>
+                <h2 className="text-3xl md:text-4xl font-medium tracking-tight my-2">
                     Loved by Teams Worldwide
                 </h2>
-                <p className="max-w-2xl mx-auto text-base  text-gray-600">
+                <p className="max-w-2xl mx-auto text-sm  text-gray-600">
                     Don't just take our word for it. Here's what our users have
                     to say.
                 </p>

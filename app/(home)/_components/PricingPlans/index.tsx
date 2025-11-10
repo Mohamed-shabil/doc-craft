@@ -6,10 +6,13 @@ const PricingPlans = () => {
     return (
         <section className="py-16 md:py-24 max-w-5xl mx-auto" id="pricing">
             <div className="text-center px-4 mb-12">
-                <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-2">
+                <span className="text-sm text-blue-500 shiny-text tracking-tighter">
+                    How it works
+                </span>
+                <h2 className="text-3xl md:text-4xl font-medium tracking-tight my-2">
                     Find the Plan That's Right for You
                 </h2>
-                <p className="max-w-2xl mx-auto text-base  text-gray-600">
+                <p className="max-w-2xl mx-auto text-sm  text-gray-600">
                     Simple, transparent pricing. No hidden fees. Cancel anytime.
                 </p>
             </div>

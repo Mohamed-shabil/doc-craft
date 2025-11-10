@@ -4,8 +4,8 @@ import { Button } from "../ui/button";
 
 const Header = () => {
     return (
-        <header className="w-full absolute top-5">
-            <div className="max-w-5xl flex mx-auto border rounded-full border-gray-200 px-10 py-4">
+        <header className="w-full fixed top-5 ">
+            <div className="max-w-5xl flex mx-auto border rounded-full backdrop-blur-sm border-gray-200 px-10 py-4">
                 <div className="flex items-center">
                     <h1 className="text-2xl  text-secondary-foreground">
                         Automate
@@ -26,7 +26,7 @@ const Header = () => {
                     </Link>
                     <div className="flex gap-2">
                         <Button
-                            variant={"secondary"}
+                            variant={"outline"}
                             className="text-sm font-semibold hover:text-primary tracking-[0.015em]"
                         >
                             Log in

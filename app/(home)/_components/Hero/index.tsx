@@ -1,7 +1,5 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { ArrowRightIcon } from "lucide-react";
 
 const Hero = () => {
     return (
@@ -27,7 +25,7 @@ const Hero = () => {
             <div className="px-4">
                 <AspectRatio
                     ratio={16 / 9}
-                    className=" h-[600px] bg-muted rounded-lg primary-gradient-bg"
+                    className="relative z-0 bg-primary rounded-lg"
                 >
                     {/* <HeroVideoDialog
                         className="block w-full h-f"
