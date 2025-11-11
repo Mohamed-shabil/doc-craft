@@ -1,10 +1,9 @@
-import FAQ from "./_components/FAQ";
-import Features from "./_components/Features";
-import Hero from "./_components/Hero";
-import PricingPlans from "./_components/PricingPlans";
-import Steps from "./_components/Steps";
-import Testimony from "./_components/Testimony";
-import TrustedBrands from "./_components/TrustedBrands";
+import FAQ from "./_components/faq";
+import Features from "./_components/features";
+import Hero from "./_components/hero";
+import PricingPlans from "./_components/pricing-plans";
+import Steps from "./_components/steps";
+import Testimony from "./_components/testimony";
 
 export default function Home() {
     return (
